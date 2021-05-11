@@ -4,17 +4,17 @@
 
 ## Set up project
 
-### `pio boards ttgo` => find board in list
+### `pio boards ttgo` to find board in list
 
-### `pio project init --board ttgo-t7-v13-mini32 => initialize project with your board
+### `pio project init --board ttgo-t7-v13-mini32` to initialize project with your board
 
-### `pio run --target upload` => compile and upload to board
+### `pio run --target upload` to compile and upload to board
 
-### `pio device monitor` => view serial monitor
+### `pio device monitor` for serial monitor
 
 ## User secrets
 
-### `touch src/credentials.h
+### `touch src/credentials.h`
 
 ```C++
 // credentials.h
