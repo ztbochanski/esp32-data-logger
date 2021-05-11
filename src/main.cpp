@@ -30,7 +30,7 @@
 
 // member variables for interval to record temp
 unsigned long previousMillis = 0;
-const long interval = 120000;
+const long interval = 10000;
 int count = 0;
 
 // Onewire communication protocol instance
