@@ -2,6 +2,13 @@
 
 [PlatformIO](https://platformio.org/platformio-ide)
 
+
+    ├── src                     # source files
+    │   ├── credentials.h       # user secrets
+    │   ├── main.cpp            # main methods (main sketch file analogous to arduino IDE)
+    ├── test                    # unit tests
+
+
 ## Set up project
 
 ### `pio boards ttgo` to find board in list
